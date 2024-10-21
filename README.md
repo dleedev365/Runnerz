@@ -1,4 +1,4 @@
-### Description
+# Description
 A fitness application that allows you to track runs through a REST API
 
 ### What I learned from this project
