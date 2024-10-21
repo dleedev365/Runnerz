@@ -1,4 +1,6 @@
 package dleedev365.runnerz.run;
 
-public record Runs() {
+import java.util.List;
+
+public record Runs(List<Run> runs) {
 }
