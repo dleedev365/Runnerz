@@ -22,7 +22,7 @@ A fitness application that allows you to track runs through a REST API
 GET http://localhost:8080/api/runs
 
 // Find Run By ID
-GET http://localhost:8080/api/runs/2
+GET http://localhost:8080/api/runs/<id>
 
 // Create new Run
 POST http://localhost:8080/api/runs
@@ -32,8 +32,8 @@ Content-Type: application/json
 POST http://localhost:8080/api/runs
 
 // Update an existing Run
-PUT http://localhost:8080/api/runs/11
+PUT http://localhost:8080/api/runs/<id>
 
 // Delete a Run
-DELETE http://localhost:8080/api/runs/11
+DELETE http://localhost:8080/api/runs/<id>
 ```
